@@ -6,7 +6,9 @@ const Section = (props) => {
     return (
         <div>
             { props.heading ? <h3>{props.heading}</h3> : null}
-            {props.children}
+            <div style={{margin: '10px'}}>
+                {props.children}
+            </div>
         </div>
     );
 };

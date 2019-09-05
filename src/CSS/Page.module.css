@@ -6,7 +6,7 @@
 }
 
 .Main p {
-    font-family: sans-serif;
+    font-family: inherit;
     font-size: 16px;
     line-height: 1.67em;
     letter-spacing: .006em;
@@ -18,12 +18,12 @@
 }
 
 .Main h3 {
-    font-family: monospace;
+    font-family: inherit;
     font-size: 32px;
 }
 
 .Main h4 {
-    font-family: serif;
+    font-family: inherit;
     font-size: 24px;
 }
 

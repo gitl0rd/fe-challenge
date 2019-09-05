@@ -1,7 +1,31 @@
 .StickyDiv {
     display: flex;
+    justify-content: space-between;
     position: sticky;
     top: 0;
     background: white;
+    border-bottom: 1px solid lightgrey;
     width: 100%;
+}
+
+.Buttons {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.Buttons button {
+    display:inline-block;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color:black;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
 }

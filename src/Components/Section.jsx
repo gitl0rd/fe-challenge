@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Section = (props) => {
-    //PROPS: heading, children (content)
+    //PROPS: heading, mono, sans, children (content)
 
     return (
         <div>

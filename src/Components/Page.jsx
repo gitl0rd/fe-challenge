@@ -6,15 +6,13 @@ import classes from '../CSS/Page.module.css';
 import Section from './Section';
 import ButtonHouse from './ButtonHouse';
 
-console.log('ya');
-
 const Page = (props) => {
     //PROPS: title
 
     //current fonts
-    const [serif, setSerif] = useState('Times');
+    const [serif, setSerif] = useState('Cormorant');
     const [sans, setSans] = useState('Helvetica');
-    const [mono, setMono] = useState('Oxygen Mono');
+    const [mono, setMono] = useState('Anonymous Pro');
 
     //all font names
     const [serifList, setSerifList] = useState([]);
@@ -54,7 +52,7 @@ const Page = (props) => {
     , []);
 
     const changeFont = (type) => {
-        console.log(type);
+        //console.log(type);
         let r = 0;
         let fam = [];
         //get random index for relevant font array

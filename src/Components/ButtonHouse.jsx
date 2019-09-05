@@ -3,6 +3,7 @@ import React from 'react';
 import classes from '../CSS/ButtonHouse.module.css';
 
 const ButtonHouse = (props) => {
+    //PROPS: title, serif, click
     return (
         <div className={classes.StickyDiv}>
             <h3 style={{fontFamily: props.serif}}>{props.title}</h3>
